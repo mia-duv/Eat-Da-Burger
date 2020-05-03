@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/mia-duv/Eat-Da-Burger/issues"
   },
-  "homepage": "https://github.com/mia-duv/Eat-Da-Burger#readme"
+  "homepage": "https://github.com/mia-duv/Eat-Da-Burger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^3.1.0",
+    "handlebars": "^4.7.3",
+    "mysql": "^2.18.1",
+    "orm": "^5.0.5"
+  },
+  "devDependencies": {}
 }
