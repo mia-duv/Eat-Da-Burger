@@ -1,9 +1,8 @@
-USE rs0zw278elt3d6h5  ;
 
-CREATE TABLE burgers (
-  id INT NOT NULL AUTO_INCREMENT,
-  burger_name VARCHAR(60) NOT NULL,
-  devoured BOOLEAN DEFAULT false,
-  PRIMARY KEY (id)
-);
-SELECT * FROM burgers;
+INSERT INTO burgers (burger_name) VALUES ('Classic Burger');
+INSERT INTO burgers (burger_name) VALUES ('Cheese Burger');
+INSERT INTO burgers (burger_name, devoured) VALUES ('Baconator', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Chimi Burger', true);
+INSERT INTO burgers (burger_name, devoured) VALUES ('Cali Burger', true);
+INSERT INTO burgers (burger_name) VALUES ('Spicy Burger');
+
